@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const ThemeContext = createContext()
 
-const ThemeProvider = ({ children }) => {
+function ThemeProvider({ children }) {
   const [themeName, setThemeName] = useState('light')
 
   useEffect(() => {

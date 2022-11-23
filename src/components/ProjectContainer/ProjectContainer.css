@@ -31,3 +31,9 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.live_preview_box {
+  border: solid;
+  border-width: 3px;
+  padding: 0.7rem
+}

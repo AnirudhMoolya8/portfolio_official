@@ -3,7 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
-const About = () => {
+function About() {
   const { name, role, description, resume, social } = about
 
   return (
@@ -20,9 +20,9 @@ const About = () => {
       <div className='about__contact center'>
         {resume && (
           <a href={resume}>
-            <span type='button' className='btn btn--outline'>
+            {/* <span type='button' className='btn btn--outline'>
               Resume
-            </span>
+            </span> */}
           </a>
         )}
 
